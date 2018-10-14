@@ -32,15 +32,16 @@
 - || or 
 - ! not
 ###Truth Table
-
+#### AND (&&)
 | && | False | True |
 |----|-------|------|
 | False | False | False | 
 | True  | False | True  |
-### rff
-| || | False | True |
-|----|-------|------|
-| False | False | True  | 
-| True  | True  | True  |
+
+#### OR(||)
+| or | False | True |
+|----|-------|------| 
+| False | False | True |
+| True  | True  | True |
 
  
