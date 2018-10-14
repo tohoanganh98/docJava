@@ -6,4 +6,4 @@
 List<Integer> listNumberOdd = new ArrayList<>();
 Student student = new Student();
 ```
-<img src="http://www.webphaidep.com/wp-content/uploads/2018/05/con-gai-han-quoc-cham-soc-da-1.jpg">
+<img src="https://www.dropbox.com/s/glux4ifx6zr7y9e/Capture.PNG">
