@@ -2,8 +2,6 @@
 ## A C Program
 
 
-```java
-List<Integer> listNumberOdd = new ArrayList<>();
-Student student = new Student();
+```Lệnh #include chỉ thị cho Trình tiền xử lý C
+(một trình soạn thảo không tương tác sẽ được thảo luận sau) để tìm tệp văn bản “stdio.h”.
 ```
-<img src="https://www.dropbox.com/s/glux4ifx6zr7y9e/Capture.PNG">
