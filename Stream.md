@@ -1,18 +1,9 @@
-# docJava
+# C Basic
+## A C Program
 
-to haong `anh`
-
-- list
-- list
 
 ```java
 List<Integer> listNumberOdd = new ArrayList<>();
 Student student = new Student();
 ```
-
-sadhkgjh asdgjh jhasgd hasg
-
-## Muc 2
-
-### Muc 3
-<img src="https://imgur.com/vIKLgUT">
+<img src="http://www.webphaidep.com/wp-content/uploads/2018/05/con-gai-han-quoc-cham-soc-da-1.jpg">
