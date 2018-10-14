@@ -7,9 +7,9 @@
 - Toán tử biểu thức điều kiện
 ## Toán tử số học
 ***C supports the arithmetic operators:***
-- + addition***
-- - subtraction***
-- (*) multiplication***
+- + addition
+- - subtraction
+- (*) multiplication
 - / division***
-- % modulo (remainder)***
+- % modulo (remainder
 
