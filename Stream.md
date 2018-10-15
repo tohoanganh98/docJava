@@ -27,3 +27,5 @@ Trình tự của hai ký tự “\” theo sau là “n” là cách C xử lý
 ```Dấu chấm phẩy là rất quan trọng trong C. Họ tạo thành một terminator tuyên bố - họ nói với trình biên dịch, nơi một tuyên bố kết thúc và tiếp theo bắt đầu. Nếu bạn không đặt một cái sau mỗi câu lệnh, bạn sẽ nhận được các lỗi biên dịch.```
 ### Trường hợp nhạy cảm cần lưu ý
 ```C là một ngôn ngữ nhạy cảm. Mặc dù int biên dịch, "Int", "INT" hoặc bất kỳ biến thể nào khác sẽ không. Tất cả 40 từ khóa C đều là chữ thường. Tất cả hàng trăm hàm trong Thư viện Chuẩn đều là chữ thường..```
+
+<img src="https://drive.google.com/file/d/1VPa1Mh7-cIJ6WHP4THdqfPUwLIbrWDWT/view">
