@@ -28,4 +28,4 @@ Trình tự của hai ký tự “\” theo sau là “n” là cách C xử lý
 ### Trường hợp nhạy cảm cần lưu ý
 ```C là một ngôn ngữ nhạy cảm. Mặc dù int biên dịch, "Int", "INT" hoặc bất kỳ biến thể nào khác sẽ không. Tất cả 40 từ khóa C đều là chữ thường. Tất cả hàng trăm hàm trong Thư viện Chuẩn đều là chữ thường..```
 
-<img src="https://drive.google.com/file/d/1VPa1Mh7-cIJ6WHP4THdqfPUwLIbrWDWT/view">
+<img src="https://https://drive.google.com/file/d/1VPa1Mh7-cIJ6WHP4THdqfPUwLIbrWDWT/view">
