@@ -78,6 +78,7 @@ if(i > 0)
   else 
     printf("i is reasonable\n"); 
 ```
+**Nêu không có cặp ngoặc {} thì khi sử dụng else, trình biên dịch sẽ tự hiểu là cặp else với if gần nhất.**
 --
 ```
 int i = -20; 
@@ -87,4 +88,24 @@ if(i > 0)
     printf("i is big\n"); 
 } 
 else printf("i is negative\n");
+```
+**Nêu có dấu {} sẽ tường minh hơn những câu lệnh khi chúng ta sử dụng câu điều kiện lồng**
+## Decisions - if then else if then else
+```
+if(bieu_thuc_boolean 1)
+{
+   /* Thuc thi khi bieu thuc boolean 1 la true */
+}
+else if( bieu_thuc_boolean 2)
+{
+   /* Thuc thi khi bieu thuc boolean 2 la true */
+}
+else if( bieu_thuc_boolean 3)
+{
+   /* Thuc thi khi bieu thuc boolean 3 la true */
+}
+else 
+{
+   /* Thuc thi khi tat ca cac bieu thuc boolean tren khong la true */
+}
 ```
