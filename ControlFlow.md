@@ -57,3 +57,13 @@ else
 
 ```
 **Khi bạn thêm tùy chọn "else" có nghĩa là sẽ được thực thi khi điều kiện sai**
+###### Ví dụ minh họa:
+```
+if(i > 0) 
+{
+  printf("i is positive\n");  
+}
+else {   
+  printf("i is negative\n"); 
+}
+```
