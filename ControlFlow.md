@@ -32,3 +32,5 @@ scanf("%i", &j);
 printf("a positive number was entered\n");
 
 ```
+- Đã trở nên quen thuộc với ý tưởng đặt các ký tự dấu chấm phẩy sau mỗi câu lệnh trong C, chúng ta bắt đầu thấy rằng từ Lời tuyên bố không phải là đơn giản như có thể xuất hiện.
+  Dấu chấm phẩy đã được đặt sau điều kiện trong đoạn mã trên. Trình biên dịch xem xét điều này được đặt vì một lý do và làm cho dấu chấm phẩy trở thành một phần của cấu trúc. Một câu lệnh không làm gì được hay một câu lệnh hay không được tạo ra (mỗi máy có một lệnh khiến nó phải chờ một chu kỳ máy). Theo nghĩa đen, nếu jv jith lớn hơn 0, sẽ không có gì được thực hiện. Sau chu kỳ máy, câu lệnh tiếp theo luôn được đưa ra, bất kể không thực hiện op.
