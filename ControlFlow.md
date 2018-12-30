@@ -18,8 +18,8 @@ if(i > 0)
 
 ```
 if(i < 0) 
-  {
-    printf("a negative number was entered\n"); 
-    i = -i; 
-  }
+{
+   printf("a negative number was entered\n"); 
+   i = -i; 
+}
 ```
