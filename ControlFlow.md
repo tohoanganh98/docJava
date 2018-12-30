@@ -56,4 +56,4 @@ else
 }
 
 ```
-* Khi bạn thêm tùy chọn "else" có nghĩa là sẽ được thực thi khi điều kiện sai *
+*Khi bạn thêm tùy chọn "else" có nghĩa là sẽ được thực thi khi điều kiện sai*
