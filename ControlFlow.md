@@ -78,7 +78,7 @@ if(i > 0)
   else 
     printf("i is reasonable\n"); 
 ```
-**Nêu không có cặp ngoặc {} thì khi sử dụng else, trình biên dịch sẽ tự hiểu là cặp else với if gần nhất.**
+**Nêu không có cặp ngoặc {} thì khi sử dụng else, trình biên dịch sẽ tự hiểu là cặp else với if gần nhất**
 --
 ```
 int i = -20; 
