@@ -67,3 +67,24 @@ else {
   printf("i is negative\n"); 
 }
 ```
+
+## Nesting ifs
+###### Ví dụ minh họa:
+```
+int i = 100;
+if(i > 0) 
+  if(i > 1000) 
+    printf("i is big\n");
+  else 
+    printf("i is reasonable\n"); 
+```
+--
+```
+int i = -20; 
+if(i > 0) 
+{ 
+  if(i > 1000) 
+    printf("i is big\n"); 
+} 
+else printf("i is negative\n");
+```
