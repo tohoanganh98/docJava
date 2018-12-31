@@ -127,3 +127,32 @@ default:
     break;
 }
 ```
+**Ví dụ so sánh giữa if/then/else  và switch **
+```
+if(c == 'a' || c == 'A')   
+  printf("area = %.2f\n", r * r * pi);  
+else if(c == 'c' || c == 'C')   
+  printf("circumference = %.2f\n", 2 * r * pi);
+else if(c == 'q')
+  printf("quit option chosen\n");
+else 
+  printf("unknown option chosen\n");
+```
+
+```
+switch(c)
+{    
+default:
+  printf("unknown option chosen\n");
+  break;
+case 'q':   
+  printf("quit option chosen\n");
+  break;
+case 'c': case 'C':
+  printf("circumference = %.2f\n", 2 * r * pi);
+  break; 
+case 'a': case 'A': 
+  printf("area = %.2f\n", r * r * pi);  
+  break;  
+}
+```
