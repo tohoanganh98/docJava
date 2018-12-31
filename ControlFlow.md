@@ -111,3 +111,19 @@ else
 ```
 ## Switch
 *Khi bạn có quá nhiều điều kiên cần xử lý thì bạn cần sử dụng Switch-Case.*
+```
+switch(c) {  
+case 'a': case 'A': 
+    printf("area = %.2f\n", r * r * pi); 
+    break;  
+case 'c': case 'C': 
+    printf("circumference = %.2f\n", 2 * r * pi);
+    break; 
+case 'q': 
+    printf("quit option chosen\n");
+    break;  
+default: 
+  printf("unknown option chosen\n"); 
+  break;
+}
+```
