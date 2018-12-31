@@ -109,3 +109,5 @@ else
    /* Thuc thi khi tat ca cac bieu thuc boolean tren khong la true */
 }
 ```
+## Switch
+*Khi bạn có quá nhiều điều kiên cần xử lý thì bạn cần sử dụng Switch-Case.*
