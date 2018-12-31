@@ -211,3 +211,104 @@ start
 j = -10 
 stop
 ```
+*NOTE*
+
+Nhìn ví dụ trên các bạn có thể thấy một số vấn đề như sau:
+- Cú pháp luôn có do{} trước xong đến While().
+- Trong cặp dấu {} của do luôn là chứa câu lệnh thực thi còn trong cặp () của while luôn chứa câu điều kiện của vòng lặp.
+- Khi sử dụng do{}-while() câu lệnh thực thi của bạn sẽ luôn được chạy một lần duy nhất cho dù điều kiện có đúng hay sai.(Ví dụ trên)
+- Sau While() luôn phải có dấu ;
+## for Loop
+```
+for(initial-part; while-condition; update-part) 
+  body;
+```
+*Sau đây là một ví dụ nhỏ về vòng lặp for*
+```
+for(j = 5; j > 0; j--) 
+{ 
+  printf("j = %i ", j); 
+  printf("%s\n", ((j%2)==0)?"even":"odd"); 
+}
+```
+*NOTE*
+
+- Vòng lặp for gồm 3 thành phần cơ bản đó là giá trị khởi tạo ban đầu, điều kiện để câu lệnh được viết trong for được thực thi, bước nhảy hay còn gọi là phần cập nhập cho vòng vòng tiếp theo.
+- Các thành phần này luôn được ngăn cách nhau bởi dấu ";".
+
+**Sau đây là một ví dụ để cho thấy for là một cách viết khác của while**
+```
+The construct: 
+  for(initial-part; while-condition; update-part)  body; 
+ is equivalent to: 
+  initial-part; 
+  while(while-condition) 
+  {  
+    body; 
+    update-part; 
+  }
+ 
+```
+- Phần điều kiện bạn phải cẩn thận phân tích bài toán để có thể đưa ra điều kiện hợp lý nhất tránh như trường hợp sau đây:
+
+```
+int j; 
+printf("start\n"); 
+for(j = 5; j == 0; j--) 
+    printf("j = %i\n", j);
+printf("end\n");
+
+==>Results:
+start
+end
+```
+- Bước nhảy trong lập trình C không giới hạn. Bạn có tiến hoặc lùi bao nhiêu đơn vị là tùy bạn phụ thuộc trên bào toán bạn đang làm.
+
+```
+#include <math.h> 
+int main(void) 
+{ 
+double angle; 
+for(angle = 0.0; angle < 3.14159; angle += 0.2) 
+  printf("sine of %.1lf is %.2lf\n", angle, sin(angle));
+  return 0;
+}
+```
+## break
+- Từ khóa break buộc thoát ngay lập tức từ vòng lặp gần nhất.
+- Hạn chế sử dụng.
+```
+for(;;) 
+{ 
+  printf("type an int: "); 
+  if(scanf("%i", &j) == 1) 
+    break; 
+  while((c = getchar()) != '\n') ;
+}
+printf("j = %i\n", j);
+
+==>Results
+ type an int: an int 
+ type an int: no 
+ type an int: 16
+ j = 16
+```
+## continue
+- Từ Khóa break buộc lần lặp tiếp theo của vòng lặp gần nhất.
+- Hạn chế sử dụng.
+```
+for(j = 1; j <= 10; j++)
+{
+  if(j % 3 == 0)
+  continue; 
+  printf("j = %i\n", j);
+}
+==>Results
+j = 1
+j = 2
+j = 4
+j = 5
+j = 7
+j = 8
+j = 10
+```
