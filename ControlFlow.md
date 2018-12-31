@@ -161,3 +161,29 @@ case 'a': case 'A':
 ```
 
 **=>Khi sử dụng switch-case code nhìn rành mạch hơn, hiệu suất sẽ cao hơn so với sử dụng cách thông thường**
+
+*NOTE*
+- Sau mỗi case đều phải có break; nếu không câu lệnh sẽ không dừng lại và tiếp tục thực hiện cảu case tiếp theo.
+- Sau chữ case là dấu ":".
+- Bắt đầu với kết thúc của 1 case sẽ không nằm trong 1 cặp "{}".
+- Tất cả case sẽ được bọc trong 1 block code switch(choice){}.
+
+## While Loop
+- While là 1 vòng lặp đơn giản nhất trong ngôn ngữ lập trình C.
+- Điều kiện phải được nằm trong dấu ().
+- Một câu lệnh sẽ tạo thành phần thân của vòng lặp.
+- Nếu có 2 câu lệnh trở nên nó phải được bọc trong cặp dấu {}.
+
+```
+while(j > 0)
+{ 
+  printf("j = %i\n", j);
+  j--; 
+}
+```
+
+*NOTE*
+- Đưa ra một điều kiện và nó được nằm trong cặp dấu ().
+- Nếu điều kiện là True phần thân vòng lặp sẽ được thực hiện.
+- Điều kiện vẫn sẽ được đánh giá lại nếu vẫn đúng vòng lặp sẽ tiếp tục cho đến khi điều kiện sai thì vòng lặp sẽ dừng.
+- Sau khi vòng lặp dừng thực thi sẽ nhảy đến câu lênh đầu tiên tiếp theo.
