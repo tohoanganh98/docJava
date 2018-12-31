@@ -123,7 +123,7 @@ case 'q':
     printf("quit option chosen\n");
     break;  
 default: 
-  printf("unknown option chosen\n"); 
-  break;
+    printf("unknown option chosen\n"); 
+    break;
 }
 ```
