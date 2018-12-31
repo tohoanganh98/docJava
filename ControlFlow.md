@@ -159,3 +159,5 @@ case 'a': case 'A':
   break;  
 }
 ```
+
+**=>Khi sử dụng switch-case code nhìn rành mạch hơn, hiệu suất sẽ cao hơn so với sử dụng cách thông thường**
