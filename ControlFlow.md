@@ -128,7 +128,7 @@ default:
 }
 ```
 
-**Ví dụ so sánh giữa if/then/else  và switch **
+**Ví dụ so sánh giữa if/then/else  và switch**
 
 *if/then/else*
 ```
