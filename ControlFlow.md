@@ -196,7 +196,7 @@ printf("start\n");
     printf("j = %i\n", j--); 
 printf("end\n");
 ```
-## do while
+## Do while
 ```
 int j = -10;
 printf("start\n");
