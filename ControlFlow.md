@@ -128,6 +128,7 @@ default:
 }
 ```
 **Ví dụ so sánh giữa if/then/else  và switch **
+*if/then/else*
 ```
 if(c == 'a' || c == 'A')   
   printf("area = %.2f\n", r * r * pi);  
@@ -138,7 +139,7 @@ else if(c == 'q')
 else 
   printf("unknown option chosen\n");
 ```
-
+*switch*
 ```
 switch(c)
 {    
