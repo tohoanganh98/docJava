@@ -196,3 +196,18 @@ printf("start\n");
     printf("j = %i\n", j--); 
 printf("end\n");
 ```
+## do while
+```
+int j = -10;
+printf("start\n");
+do {
+    printf("j = %i\n", j);
+    j--;
+} while(j > 0);
+printf("stop\n");
+
+==>Results
+start 
+j = -10 
+stop
+```
