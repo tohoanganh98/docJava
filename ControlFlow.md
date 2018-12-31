@@ -274,7 +274,7 @@ for(angle = 0.0; angle < 3.14159; angle += 0.2)
   return 0;
 }
 ```
-## break
+## Break
 - Từ khóa break buộc thoát ngay lập tức từ vòng lặp gần nhất.
 - Hạn chế sử dụng.
 ```
@@ -293,7 +293,7 @@ printf("j = %i\n", j);
  type an int: 16
  j = 16
 ```
-## continue
+## Continue
 - Từ Khóa break buộc lần lặp tiếp theo của vòng lặp gần nhất.
 - Hạn chế sử dụng.
 ```
