@@ -187,3 +187,12 @@ while(j > 0)
 - Nếu điều kiện là True phần thân vòng lặp sẽ được thực hiện.
 - Điều kiện vẫn sẽ được đánh giá lại nếu vẫn đúng vòng lặp sẽ tiếp tục cho đến khi điều kiện sai thì vòng lặp sẽ dừng.
 - Sau khi vòng lặp dừng thực thi sẽ nhảy đến câu lênh đầu tiên tiếp theo.
+*Sau đây là một ví dụ khi người lập trình đưa ra một điều kiện không thể True*
+
+```
+int j = 5;
+printf("start\n");
+  while(j == 0)
+    printf("j = %i\n", j--); 
+printf("end\n");
+```
