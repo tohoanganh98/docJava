@@ -102,7 +102,7 @@ else if( bieu_thuc_boolean 2)
 }
 else if( bieu_thuc_boolean 3)
 {
-   /* Thuc thi khi bieu thuc boolean 3 la true */
+   /* Thuc thi khi bieu thuc boolean 3 la true  */
 }
 else 
 {
