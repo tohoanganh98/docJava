@@ -1,13 +1,13 @@
-**1. Write a program in “QUANT.C” which “quantifies” numbers. 
-Read an integer “x” and test it, producing the following output: 
-x greater than or equal to 1000 print “hugely positive”
-x from 999 to 100 (including 100) print “very positive” 
-x between 100 and 0 print “positive” x exactly 0 print “zero” 
-x between 0 and -100 print “negative” 
-x from -100 to 999 (including 100) print “very negative” 
-x less than or equal to -1000 print “hugely negative” 
-Thus -10 would print “negative”, -100 “very negative” and 458 “very positive”. 
-In the following solution the words “very” and “hugely” are printed separately from “positive” and “negative”.**
+**1. Write a program in “QUANT.C” which “quantifies” numbers.**
+**Read an integer “x” and test it, producing the following output:**
+**x greater than or equal to 1000 print “hugely positive”**
+**x from 999 to 100 (including 100) print “very positive”**
+**x between 100 and 0 print “positive” x exactly 0 print “zero”**
+**x between 0 and -100 print “negative”** 
+**x from -100 to 999 (including 100) print “very negative”**
+**x less than or equal to -1000 print “hugely negative”**
+**Thus -10 would print “negative”, -100 “very negative” and 458 “very positive”.** 
+**In the following solution the words “very” and “hugely” are printed separately from “positive” and “negative”.**
 
 ```
 #include <stdio.h> 
