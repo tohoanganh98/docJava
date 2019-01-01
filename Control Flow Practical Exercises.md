@@ -58,3 +58,27 @@ The program then outputs the first number raised to the power of the second.**
  return 0;
  } 
 ```
+**3. Write a program in “DRAWX.C” which draws an “x” of user specified height.**
+```
+#include <stdio.h> 
+ int main(void) 
+ {
+ int height;
+ int row;
+ int column; 
+ printf("Enter height of 'x' ");
+ scanf("%i", &height); 
+ for(row = 1; row <= height; row++)
+ { 
+    for(column = 1; column <= height; column++)
+    {
+       if(row == column || column == height - row + 1)
+          printf("*");
+       else
+          printf(" ");
+     }
+printf("\n");
+} 
+return 0;
+} 
+```
